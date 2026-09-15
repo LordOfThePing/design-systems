@@ -1,0 +1,30 @@
+:root{
+/* Radii: the brand is hard-edged. Zero is the default and the rule.
+   --radius-full exists only for dots, avatars and status pips. */
+--radius-none:0px;
+--radius-xs:2px;
+--radius-full:999px;
+
+/* Borders: rules do the work shadows do elsewhere. */
+--border-hairline:1px;
+--border-rule:2px;
+--border-heavy:3px;
+--border-frame:6px;
+--outline-focus:2px;
+--outline-focus-offset:2px;
+
+/* Shadows: hard offset only, never blurred. */
+--shadow-none:none;
+--shadow-hard-sm:3px 3px 0 var(--border-strong);
+--shadow-hard:5px 5px 0 var(--border-strong);
+--shadow-hard-lg:10px 10px 0 var(--border-strong);
+--shadow-overlay:0 24px 64px rgba(0,0,0,.28);
+
+/* Blur is used only behind modal overlays. */
+--overlay-scrim:rgba(28,27,24,.72);
+--overlay-blur:6px;
+
+/* Texture: the checkerboard half-split of the mark, as a repeatable motif. */
+--pattern-checker:repeating-conic-gradient(var(--kage-black) 0% 25%,transparent 0% 50%) 0 0/16px 16px;
+--pattern-rule:repeating-linear-gradient(90deg,var(--border-default) 0 1px,transparent 1px 8px);
+}

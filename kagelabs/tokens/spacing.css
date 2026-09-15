@@ -1,0 +1,36 @@
+:root{
+--space-0:0px;
+--space-1:2px;
+--space-2:4px;
+--space-3:8px;
+--space-4:12px;
+--space-5:16px;
+--space-6:24px;
+--space-7:32px;
+--space-8:48px;
+--space-9:64px;
+--space-10:96px;
+--space-11:128px;
+--space-12:192px;
+
+/* semantic spacing */
+--gap-inline:var(--space-3);
+--gap-stack:var(--space-5);
+--gap-group:var(--space-7);
+--gap-section:var(--space-10);
+--pad-control:var(--space-4);
+--pad-card:var(--space-6);
+--pad-panel:var(--space-7);
+--pad-page:var(--space-8);
+
+/* layout */
+--measure-prose:64ch;
+--measure-narrow:44ch;
+--container-max:1320px;
+--container-text:760px;
+--grid-columns:12; /* @kind other */
+--grid-gutter:var(--space-6);
+--control-h-sm:30px;
+--control-h-md:40px;
+--control-h-lg:52px;
+}

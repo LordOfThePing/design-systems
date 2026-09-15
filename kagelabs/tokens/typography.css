@@ -1,0 +1,54 @@
+:root{
+--font-display:"Archivo Black","Archivo Expanded",system-ui,sans-serif;
+--font-serif:"Instrument Serif",Georgia,serif;
+--font-sans:"Archivo","Helvetica Neue",system-ui,sans-serif;
+--font-mono:"JetBrains Mono",ui-monospace,monospace;
+
+/* size ramp — 1.25 minor-third, rounded to whole px */
+--text-3xs:10px;
+--text-2xs:11px;
+--text-xs:12px;
+--text-sm:14px;
+--text-base:16px;
+--text-md:18px;
+--text-lg:21px;
+--text-xl:26px;
+--text-2xl:32px;
+--text-3xl:42px;
+--text-4xl:56px;
+--text-5xl:76px;
+--text-6xl:104px;
+--text-7xl:148px;
+
+--leading-flush:0.86;
+--leading-tight:1;
+--leading-snug:1.16;
+--leading-normal:1.5;
+--leading-loose:1.65;
+
+--tracking-display:-0.035em;
+--tracking-tight:-0.015em;
+--tracking-normal:0;
+--tracking-wide:0.06em;
+--tracking-caps:0.14em;
+
+--weight-regular:400;
+--weight-medium:500;
+--weight-bold:700;
+
+/* semantic roles */
+--type-hero-family:var(--font-display);
+--type-hero-size:var(--text-6xl);
+--type-hero-leading:var(--leading-flush);
+--type-hero-tracking:var(--tracking-display);
+
+--type-h1-size:var(--text-4xl);
+--type-h2-size:var(--text-2xl);
+--type-h3-size:var(--text-xl);
+--type-body-size:var(--text-base);
+--type-body-leading:var(--leading-normal);
+--type-small-size:var(--text-sm);
+--type-eyebrow-size:var(--text-2xs);
+--type-eyebrow-tracking:var(--tracking-caps);
+--type-data-family:var(--font-mono);
+}

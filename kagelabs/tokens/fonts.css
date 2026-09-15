@@ -1,0 +1,9 @@
+/* KageLabs webfonts.
+   SUBSTITUTION NOTE: no font binaries were supplied with the brand assets.
+   These are the closest Google Fonts matches to the logo lettering:
+   - Archivo Black  -> the fat, slightly flared grotesque of the KAGE / LABS mark
+   - Instrument Serif -> the high-contrast serif of the "KageLabs" wordmark
+   - Archivo (variable) -> UI and body text, same skeleton as Archivo Black
+   - JetBrains Mono -> numerics, data, code
+   Replace with the real licensed families when available. */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,400..700;1,400..600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap");

@@ -1,0 +1,15 @@
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--surface-page);color:var(--text-body);font-family:var(--font-sans);font-size:var(--type-body-size);line-height:var(--type-body-leading);-webkit-font-smoothing:antialiased;text-wrap:pretty}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:400;letter-spacing:var(--tracking-display);line-height:var(--leading-tight);text-transform:uppercase;margin:0;color:var(--text-strong)}
+h1{font-size:var(--type-h1-size)}h2{font-size:var(--type-h2-size)}h3{font-size:var(--type-h3-size);letter-spacing:var(--tracking-tight)}
+h4{font-size:var(--text-md);letter-spacing:var(--tracking-tight)}
+p{margin:0 0 var(--space-5)}
+a{color:var(--text-link);text-decoration:underline;text-decoration-thickness:from-font;text-underline-offset:.18em;transition:color var(--duration-fast) var(--ease-out)}
+a:hover{color:var(--text-link-hover)}
+small{font-size:var(--type-small-size)}
+code,kbd,samp{font-family:var(--font-mono);font-size:.92em}
+hr{border:0;border-top:var(--border-rule) solid var(--border-default);margin:var(--space-7) 0}
+::selection{background:var(--kage-black);color:var(--kage-cream)}
+:focus-visible{outline:var(--outline-focus) solid var(--focus-ring);outline-offset:var(--outline-focus-offset)}
+.kage-eyebrow{font-family:var(--font-sans);font-size:var(--type-eyebrow-size);font-weight:var(--weight-bold);letter-spacing:var(--type-eyebrow-tracking);text-transform:uppercase;color:var(--text-muted)}
+.kage-serif{font-family:var(--font-serif);font-weight:400;letter-spacing:0;text-transform:none}
