@@ -1,0 +1,82 @@
+:root {
+  /* ── Brand green: the only brand hue ───────────────────────────── */
+  --green: #1D9E75;
+  --green-dark: #0F6E56;
+  --green-text: #0F6E56;
+  --green-bg: #E1F5EE;
+  --green-light: #5DCAA5;   /* accent for dark grounds (derived) */
+
+  /* ── Neutrals ──────────────────────────────────────────────────── */
+  --ink: #141414;           /* landing --text */
+  --ink-app: #1A1A1A;       /* dashboard --text */
+  --ink-deep: #0F0F0F;      /* footer ground */
+  --text-2: #6B6B6B;
+  --text-2-warm: #5C5C5C;   /* landing --text-2 */
+  --text-3: #A0A0A0;
+  --surface: #F7F7F5;
+  --surface-warm: #F6F6F3;  /* landing --surface */
+  --surface-2: #F0F0EC;
+  --white: #FFFFFF;
+
+  /* ── Semantic ──────────────────────────────────────────────────── */
+  --red: #E24B4A;
+  --red-bg: #FCEBEB;
+  --red-text: #A32D2D;
+  --amber: #BA7517;
+  --amber-bg: #FAEEDA;
+  --amber-fill: #EF9F27;
+  --blue: #378ADD;
+  --blue-bg: #E6F1FB;
+  --blue-text: #185FA5;
+  --star: #F5A623;
+
+  /* ── Hairlines & scrims ────────────────────────────────────────── */
+  --border: rgba(0, 0, 0, 0.08);
+  --border-2: rgba(0, 0, 0, 0.13);
+  --scrim: rgba(0, 0, 0, 0.35);
+
+  /* ── WhatsApp context (chat mockups ONLY — not brand colours) ──── */
+  --wapp-teal: #075E54;
+  --wapp-bg: #ECE5DD;
+  --wapp-out: #DCF8C6;
+  --wapp-in: #FFFFFF;
+  --wapp-tick: #4FC3F7;
+
+  /* ── Category colours (dashboard.js CAT_COLORS) ────────────────── */
+  --cat-servicios: #1D9E75;
+  --cat-comida: #EF9F27;
+  --cat-transporte: #D4537E;
+  --cat-entretenimiento: #9B59B6;
+  --cat-salud: #E74C3C;
+  --cat-ropa: #F39C12;
+  --cat-educacion: #2980B9;
+  --cat-otros: #B4B2A9;
+  --cat-sueldo: #1D9E75;
+  --cat-freelance: #27AE60;
+  --cat-venta: #16A085;
+  --cat-transferencia: #2471A3;
+  --cat-regalo: #8E44AD;
+
+  /* Fallback cycle for unmapped categories (dashboard.js CAT_PALETTE) */
+  --cat-p1: #1D9E75;
+  --cat-p2: #378ADD;
+  --cat-p3: #EF9F27;
+  --cat-p4: #D4537E;
+  --cat-p5: #9B59B6;
+  --cat-p6: #E67E22;
+  --cat-p7: #16A085;
+  --cat-p8: #8E44AD;
+  --cat-p9: #2980B9;
+  --cat-p10: #B4B2A9;
+
+  /* ── Semantic aliases ──────────────────────────────────────────── */
+  --text-body: var(--text-2);
+  --text-heading: var(--ink);
+  --text-muted: var(--text-3);
+  --surface-page: var(--surface);
+  --surface-card: var(--white);
+  --surface-sunken: var(--surface-2);
+  --accent: var(--green);
+  --accent-ink: var(--green-dark);
+  --accent-surface: var(--green-bg);
+}

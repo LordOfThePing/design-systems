@@ -1,0 +1,32 @@
+:root {
+  /* Scale as used in the app. Fraunces for display + figures, DM Sans for UI. */
+  --fs-hero: 56px;          /* landing h1 */
+  --fs-display: 44px;
+  --fs-title: 32px;
+  --fs-section: 26px;
+  --fs-metric: 28px;
+  --fs-lead: 19px;
+  --fs-body: 15px;
+  --fs-ui: 14px;
+  --fs-small: 13.5px;
+  --fs-label: 12px;
+  --fs-eyebrow: 11px;
+  --fs-micro: 10.5px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;         /* heaviest weight in DM Sans usage */
+  --fw-display: 600;        /* Fraunces */
+
+  /* Fraunces runs tight; tracking scales with size */
+  --ls-hero: -3px;
+  --ls-display: -2.2px;
+  --ls-title: -1.2px;
+  --ls-section: -0.8px;
+  --ls-metric: -1px;
+  --ls-logo: -0.5px;
+  --ls-eyebrow: 1.5px;
+
+  --lh-display: 1.04;
+  --lh-heading: 1.2;
+  --lh-body: 1.6;
+}
